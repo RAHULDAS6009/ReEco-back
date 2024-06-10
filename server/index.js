@@ -11,7 +11,7 @@ require("dotenv").config();
 
 const cors = require("cors");
 const corsOptions ={
-    origin:'http://localhost:3000', 
+    origin:'https://frontend-deploy-1-k9b7i6rqn-rahuldas6009s-projects.vercel.app', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
