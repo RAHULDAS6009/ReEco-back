@@ -9,18 +9,12 @@ const pickpartnerRouter = require("./routes/pickpartner");
 require("dotenv").config();
 // const templatePath = require("./templates");
 
-const cors = require("cors");
-const corsOptions ={
-    origin:'https://frontend-deploy-1-k9b7i6rqn-rahuldas6009s-projects.vercel.app', 
-    credentials:true,            //access-control-allow-credentials:true
-    optionSuccessStatus:200
-}
 
 
 // app.use(express.static("public")); //to load css files and images
 app.use(express.json());
 
-app.use(cors(corsOptions));
+
 
 // app.use(cookieParser());
 // app.use(express.urlencoded({ extended: false }));
