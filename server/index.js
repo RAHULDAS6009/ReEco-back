@@ -14,11 +14,8 @@ const cors = require("cors");
 // app.use(express.static("public")); //to load css files and images
 app.use(express.json());
 
-const corsOptions = {
-  origin: 'https://frontend-reco-1.vercel.app',
-};
 
-app.use(cors(corsOptions));
+app.use(cors());
 // app.use(cookieParser());
 // app.use(express.urlencoded({ extended: false }));
 
